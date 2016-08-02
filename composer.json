@@ -1,0 +1,20 @@
+{
+    "name": "foo/bar",
+    "description": "do",
+    "type": "do",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/database": "^5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "DI\\": "src/"
+        },
+        "classmap":[
+            "mvc-codecourse/app/models"
+        ]
+          
+
+    }
+}
